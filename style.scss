@@ -1,0 +1,408 @@
+body {
+    padding: 100px;
+    background-color: black;
+  }
+  
+  a {
+    color: white;
+  }
+
+  /* unvisited link */
+  a:link {
+    color: white;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: white;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: rgb(10, 10, 10);
+  }
+
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:active { text-decoration: none; }
+  
+  nav {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    padding-left: 90px;
+    font-family: 'Raleway', sans-serif; 
+    font-size: 24px;
+    color: grey;
+    width: 100vw;
+    margin-left: -100px;
+    .bg-light {
+      background-color: grey!important;
+      height: 40px;
+  }
+   
+  }
+  .navbar-light .navbar-nav .nav-link {
+    color:white;
+}
+
+  .dropdown-item {background-color: grey;}
+  .dropdown-menu {background-color: grey;}
+  .nav-color {background-color: grey;}
+  .nav-portfolio { margin: 5px;}
+  .nav-aboutme { margin: 5px;}
+
+
+
+  h1 {
+    text-align: left;
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+    color: white;
+    margin-bottom: 2%;
+    line-height: 1.5;
+  }
+
+  @media screen and (max-width: 768px) {
+   h1 {
+    font-size: 24px;
+    }
+  }
+
+  h2 {
+    text-align: left;
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    color: white;
+  }
+
+  h3 {
+   text-align: left;
+   font-family: 'Raleway', sans-serif;
+    font-size: 32px;
+    color: white;
+  }
+
+  h4 {
+   text-align: left;
+   font-family: 'Poppins', sans-serif; 
+    font-size: 24px;
+    color: white;  
+    }
+
+p {
+        color: white;
+        font-size: 16px;
+        line-height: normal;
+        font-family: 'Poppins', sans-serif;
+      }
+
+
+
+
+.intro-aboutme {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.aboutme-paragraph {
+    width: 60%;
+    line-height: normal;
+    font-family: 'Poppins', sans-serif;
+}
+
+.mimmi-pic {
+    width: 40%;
+    height: auto;
+}
+
+.contact-details {
+    text-align: center;
+    width: fit-content;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 10%;
+}
+
+.linkedin-pic {
+    width: 40%;
+    height: auto;
+    margin: 5%;
+}
+
+.library-pic {
+    width: 60%;
+    height: auto;
+    margin-top: 15%;
+    margin-left: -7%;
+
+}
+
+.education-box-layout {
+  background-color: grey;
+  padding: 5%;
+  margin: 5%;
+  
+}
+
+.motor-pic {
+  width: 60%;
+  height: auto;
+  margin-top: 10%;
+  margin-bottom: 0;
+  margin-left: 5%
+   
+}
+
+.work-box-layout {
+    background-color: grey;
+    padding: 5%;
+    margin: 5%;
+}
+
+.services-paragraph {
+  text-align: center;
+  line-height: normal;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 10%;
+}
+
+.services-title {
+  text-align: center;
+  line-height: normal;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 10%;
+}
+
+.display-pic {
+  width: 100%;
+}
+
+.mic-pic {
+  width: 100%;
+}
+
+.ux-design {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.ux-research {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.ux-titles {
+  text-align: center;
+  margin-top: 5%;
+}
+
+
+    .project-layout-1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .project-layout-2 {
+      width: 30%;
+      display: flex;
+      flex-direction: column
+    }
+
+    .project-wrap {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .project-layout-1 h3 {
+        margin: 0;
+    }
+
+    .left-title {
+      margin-bottom: 5% !important;
+    }
+
+    .button-layout {
+        width: 100px;
+    }
+
+    .my-portfolio-intro {
+      margin-top: 10%;
+    }
+
+    .vasttrafik-pics {
+      width: 25%;
+      height: auto;
+      margin: 3%;
+      margin-bottom: 5%;
+    }
+
+    .heuristik-mockup {
+      width: 40%;
+      height: auto;
+      }
+
+    .västtra-heading {
+      margin-top: 10%;
+      margin-bottom: 5%;
+    }
+
+    .västtra-intro {
+      margin-bottom: 10%;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    .team-tools-timeline {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      margin-right: 5%;
+    }
+
+    .vasttrafik-pic-single {
+      width: 70%;
+      height: auto;
+      margin: 3%;
+    }
+
+    .problems {
+      margin-bottom: 5%;
+    }
+
+    .goals {
+      margin-bottom: 5%;
+    }
+
+    .takeaways {
+      margin-bottom: 5%;
+    }
+
+  #footer-text {
+    text-align: center;
+    margin-top: 25%;
+    font-family: 'Poppins', sans-serif;
+  }
+
+
+
+  // #kladdSection { color: antiquewhite; background-color: grey;}
+  // .unicorn { background-color: pink;
+  // }
+  // @keyframes spin {
+  //   0% { transform: rotate(0deg); }
+  //   100% { transform: rotate(360deg); }
+  // }
+
+/* Enkel CSS för bildstorlek och förstoringsanimation */
+// .image-container {
+//   display: flex;
+//   justify-content: space-around;
+//   margin-top: 20px;
+// }
+
+// .image {
+//   width: 100px;
+//   height: 100px;
+//   object-fit: cover;
+//   transition: transform 0.5s;
+// }
+
+// .enlarged {
+//   transform: scale(1.5); /* Förstorad med 1.5 gånger */
+// }
+
+// /* Lite utrymme för att skilja knappen från bilderna */
+// .button-container {
+//   margin-top: 20px;
+// }
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
